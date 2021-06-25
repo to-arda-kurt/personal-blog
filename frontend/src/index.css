@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .site-container {
+    @apply max-w-sm mx-auto;
+  }
+}
