@@ -3,8 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-mainColor;
+  }
+}
 @layer components {
   .site-container {
-    @apply max-w-sm mx-auto;
+    @apply max-w-screen-2xl mx-auto;
   }
 }
