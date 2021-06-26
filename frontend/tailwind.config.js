@@ -5,6 +5,9 @@ module.exports = {
     colors: {
       mainColor: '#FFF1E5',
     },
+    fontFamily: {
+      mainFont: ['Sanchez', 'serif'],
+    },
     extend: {},
   },
   variants: {

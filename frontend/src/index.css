@@ -5,11 +5,11 @@
 
 @layer base {
   body {
-    @apply bg-mainColor;
+    @apply bg-mainColor font-mainFont;
   }
 }
 @layer components {
   .site-container {
-    @apply max-w-screen-2xl mx-auto;
+    @apply max-w-screen-xl mx-auto;
   }
 }
