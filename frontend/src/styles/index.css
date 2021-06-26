@@ -1,0 +1,23 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-mainFont bg-mainColor text-gray-700;
+  }
+}
+@layer components {
+  .site-container {
+    @apply max-w-screen-xl mx-auto;
+  }
+
+  .base-animation {
+    @apply transform hover:scale-105 transition-transform duration-500 ease-in-out;
+  }
+
+  .hero-h1 {
+    @apply text-7rem leading-none;
+  }
+}
