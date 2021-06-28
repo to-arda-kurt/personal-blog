@@ -1,6 +1,6 @@
 # Target
 
-Build personal website/blog/resume website with Node.js, React and Tailwind CSS. After first frontend part I'm planning to implement
+Build personal website/blog/resume website with Node.js, React and Tailwind CSS. I'am planning to implement following updates after frontend.
 
 1. [ ] Aut & Login Page
 2. [ ] MongoDB or Firebase Connection to manage active and dynamic data

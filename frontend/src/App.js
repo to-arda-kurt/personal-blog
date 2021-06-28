@@ -6,20 +6,27 @@ import BlogPage from './page/BlogPage';
 import ResumePage from './page/ResumePage';
 import ContactPage from './page/ContactPage';
 
+import PageConfigState from './context/PageConfig/PageConfigState';
+import BlogState from './context/Blog/BlogState';
+
 function App() {
   return (
-    <Router>
-      <div className="site-container">
-        <Header />
-        <Switch>
-          <Route exact path="/contact" component={ContactPage} />
-          <Route exact path="/resume" component={ResumePage} />
-          <Route exact path="/blog" component={BlogPage} />
-          <Route exact path="/about" component={AboutPage} />
-          <Route path="/" component={HomePage} />
-        </Switch>
-      </div>
-    </Router>
+    <PageConfigState>
+      <BlogState>
+        <Router>
+          <div className="site-container">
+            <Header />
+            <Switch>
+              <Route exact path="/contact" component={ContactPage} />
+              <Route exact path="/resume" component={ResumePage} />
+              <Route exact path="/blog" component={BlogPage} />
+              <Route exact path="/about" component={AboutPage} />
+              <Route path="/" component={HomePage} />
+            </Switch>
+          </div>
+        </Router>
+      </BlogState>
+    </PageConfigState>
   );
 }
 

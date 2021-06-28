@@ -10,13 +10,15 @@ const HeroBanner = () => {
         <div className="w-full relative">
           <h1 className="hero-h1 z-10 ">
             Journey of Junior <br />
-            frontend developer
+            Frontend Developer
           </h1>
-          <img
-            src={imgUrl + `hero-image.png`}
-            alt=""
-            className="absolute top-0 right-0 -z-10 w-96"
-          />
+          <div className="absolute top-0 right-0 -z-10 h-96 w-autowrounded-3xl">
+            <img
+              src={imgUrl + `image-center-test.jpeg`}
+              alt=""
+              className="rounded-3xl"
+            />
+          </div>
         </div>
         <div>
           <p className="w-7/12 py-10">
