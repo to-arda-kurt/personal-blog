@@ -21,6 +21,10 @@
     @apply text-7rem leading-none;
   }
 
+  .hero-h2 {
+    @apply text-6xl leading-none;
+  }
+
   .base-image {
     @apply rounded-3xl object-cover h-full;
   }
