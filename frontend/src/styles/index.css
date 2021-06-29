@@ -7,7 +7,6 @@
   body {
     @apply font-mainFont bg-mainColor text-gray-700;
   }
-  
 }
 @layer components {
   .site-container {
@@ -20,5 +19,9 @@
 
   .hero-h1 {
     @apply text-7rem leading-none;
+  }
+
+  .base-image {
+    @apply rounded-3xl object-cover h-full;
   }
 }

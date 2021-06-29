@@ -3,6 +3,7 @@ export const BLOG = [
     _id: '1231515',
     title: 'Blog Title',
     subtitle: 'Blog SubTitle or Slogan',
+    date: new Date('December 17, 1995 03:24:00'),
     postNo: 1,
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus placeat nemo quia dolorem amet architecto earum esse cum ad? Qui cum quo alias repudiandae distinctio nam impedit dignissimos aspernatur.
     Odio enim, alias, pariatur ex repudiandae quis maxime perferendis inventore hic, a laboriosam repellat praesentium provident libero tempora reprehenderit suscipit blanditiis illo nobis? Recusandae unde quisquam tempore, beatae cum perspiciatis?
@@ -18,6 +19,7 @@ export const BLOG = [
     _id: '1512231',
     title: 'Blog Title 2',
     subtitle: 'Blog SubTitle or Slogan 2',
+    date: new Date('December 17, 1995 03:24:00'),
     postNo: 2,
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus placeat nemo quia dolorem amet architecto earum esse cum ad? Qui cum quo alias repudiandae distinctio nam impedit dignissimos aspernatur.
     Odio enim, alias, pariatur ex repudiandae quis maxime perferendis inventore hic, a laboriosam repellat praesentium provident libero tempora reprehenderit suscipit blanditiis illo nobis? Recusandae unde quisquam tempore, beatae cum perspiciatis?
@@ -33,6 +35,7 @@ export const BLOG = [
     _id: '1231515',
     title: 'Blog Title 4',
     subtitle: 'Blog SubTitle or Slogan',
+    date: new Date('December 17, 1995 03:24:00'),
     postNo: 4,
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus placeat nemo quia dolorem amet architecto earum esse cum ad? Qui cum quo alias repudiandae distinctio nam impedit dignissimos aspernatur.
     Odio enim, alias, pariatur ex repudiandae quis maxime perferendis inventore hic, a laboriosam repellat praesentium provident libero tempora reprehenderit suscipit blanditiis illo nobis? Recusandae unde quisquam tempore, beatae cum perspiciatis?
@@ -48,6 +51,7 @@ export const BLOG = [
     _id: '1512231',
     title: 'Blog Title 3',
     subtitle: 'Blog SubTitle or Slogan 3',
+    date: new Date('December 17, 1995 03:24:00'),
     postNo: 3,
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus placeat nemo quia dolorem amet architecto earum esse cum ad? Qui cum quo alias repudiandae distinctio nam impedit dignissimos aspernatur.
     Odio enim, alias, pariatur ex repudiandae quis maxime perferendis inventore hic, a laboriosam repellat praesentium provident libero tempora reprehenderit suscipit blanditiis illo nobis? Recusandae unde quisquam tempore, beatae cum perspiciatis?

@@ -12,16 +12,18 @@ const HeroBanner = () => {
             Journey of Junior <br />
             Frontend Developer
           </h1>
-          <div className="absolute top-0 right-0 -z-10 h-96 w-autowrounded-3xl">
-            <img
-              src={imgUrl + `image-center-test.jpeg`}
-              alt=""
-              className="rounded-3xl"
-            />
+          <div className="absolute top-0 right-0 -z-10 ">
+            <div className="relative h-105 w-100">
+              <img
+                src={imgUrl + `image-center-test.jpeg`}
+                alt=""
+                className="base-image opacity-50"
+              />
+            </div>
           </div>
         </div>
         <div>
-          <p className="w-7/12 py-10">
+          <p className="w-7/12 py-10 text-xl text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus recusandae unde libero voluptates assumenda, sequi
             vitae fugiat cum commodi sapiente repudiandae iste quaerat ipsa

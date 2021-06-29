@@ -15,6 +15,13 @@ module.exports = {
       fontSize: {
         '7rem': '7rem',
       },
+      height: {
+        105: '36rem',
+      },
+      width: {
+        100: '30rem',
+        105: '36rem',
+      },
     },
   },
   variants: {
