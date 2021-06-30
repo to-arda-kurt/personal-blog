@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply font-mainFont bg-mainColor text-gray-700;
+    @apply font-mainFont bg-mainColor text-gray-700 overflow-y-scroll;
   }
 }
 @layer components {
