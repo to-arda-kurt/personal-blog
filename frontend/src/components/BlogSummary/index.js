@@ -8,6 +8,7 @@ const BlogSummary = ({ header, items }) => {
   const blogContext = useContext(BlogContext);
   const { blogPosts } = blogContext;
   const lastPosts = blogPosts.slice(-2).reverse();
+  console.log(lastPosts);
 
   return (
     <>

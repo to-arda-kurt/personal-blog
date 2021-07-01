@@ -1,6 +1,7 @@
 export const BLOG = [
   {
     _id: '1231515',
+    handle: 'post-1-blog-title',
     title: 'Blog Title',
     subtitle: 'Blog SubTitle or Slogan',
     date: new Date('December 17, 1998 03:24:00'),
@@ -17,6 +18,7 @@ export const BLOG = [
   },
   {
     _id: '1512231',
+    handle: 'post-2-blog-title-2',
     title: 'Blog Title 2',
     subtitle: 'Blog SubTitle or Slogan 2',
     date: new Date('December 17, 1996 03:24:00'),
@@ -33,6 +35,7 @@ export const BLOG = [
   },
   {
     _id: '1231515',
+    handle: 'post-3-blog-title-4',
     title: 'Blog Title 4',
     subtitle: 'Blog SubTitle or Slogan',
     date: new Date('December 17, 1997 03:24:00'),
@@ -49,6 +52,7 @@ export const BLOG = [
   },
   {
     _id: '1512231',
+    handle: 'post-3-blog-title-3',
     title: 'Blog Title 3',
     subtitle: 'Blog SubTitle or Slogan 3',
     date: new Date('December 17, 1998 03:24:00'),

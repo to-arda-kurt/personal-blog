@@ -6,6 +6,7 @@ export default (state, action) => {
     case GET_BLOG_POST:
       return {
         ...state,
+        activePost: action.payload,
       };
     default:
       return state;

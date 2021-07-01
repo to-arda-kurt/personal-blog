@@ -11,7 +11,11 @@ const AboutPage = () => {
       <h2 className="text-6xl">{pageConfig.aboutPageName}</h2>
       <h3 className="text-4xl">{pageConfig.aboutPageSubtitle}</h3>
       <p className="py-10 text-xl text-justify">{pageConfig.aboutPageText}</p>
-      <img className="base-image" src={pageConfig.aboutPageImgUrl} alt="" />
+      <img
+        className="rounded-3xl object-cover"
+        src={pageConfig.aboutPageImgUrl}
+        alt=""
+      />
       <p className="py-10 text-xl text-justify">{pageConfig.aboutPageText2}</p>
     </main>
   );

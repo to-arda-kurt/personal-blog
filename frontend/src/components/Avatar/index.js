@@ -9,7 +9,7 @@ const Avatar = () => {
         <img
           src={`${imgUrl}arda-kurt.jpeg`}
           alt="Arda Kurt Profile"
-          className="rounded-full h-32 shadow-2xl base-animation"
+          className="rounded-full h-32 shadow-2xl base-animation opacity-75 hover:opacity-100"
         />
       </Link>
     </>

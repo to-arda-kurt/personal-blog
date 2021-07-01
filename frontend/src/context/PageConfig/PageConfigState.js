@@ -27,6 +27,7 @@ const PageConfigState = (props) => {
       fugiat? Deleniti, minima animi!`,
       aboutPageImgUrl:
         'https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg',
+      resumePageHeader: 'Resume.',
     },
   };
 

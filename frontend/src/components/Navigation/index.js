@@ -9,7 +9,6 @@ const Navigation = () => {
     { Name: 'About', Url: '/about' },
     { Name: 'Blog', Url: '/blog' },
     { Name: 'Resume', Url: '/resume' },
-    { Name: 'Contact', Url: '/contact' },
   ];
   return (
     <>

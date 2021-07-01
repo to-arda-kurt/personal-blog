@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         mainColor: '#FFF1E5',
-        subColor: "#131313"
+        subColor: '#131313',
       },
       zIndex: {
         '-10': '-10',

@@ -35,7 +35,7 @@ const BlogItem = ({ post }) => {
               </div>
             </div>
             <div className="mb-16 px-12 text-justify">
-              {post.content.substring(0, 500) + '...'}
+              {post.content.substring(0, 250) + '...'}
             </div>
           </div>
         </div>
