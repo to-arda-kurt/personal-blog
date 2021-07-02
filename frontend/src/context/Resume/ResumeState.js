@@ -1,13 +1,12 @@
 import { useReducer } from 'react';
 import axios from 'axios';
-import env from 'react-dotenv';
 import ResumeReducer from './resumeReducer';
 import ResumeContext from './resumeContext';
 import { GET_GITHUB_USER, SET_LOADING } from '../types';
 
-let githubClientId = env.GITHUB_CLIENT_ID;
-let githubClientSecret = env.GITHUB_CLIENT_SECRET;
-let githubUserName = env.GITHUB_USER_NAME;
+let githubClientId = process.env.REACT_APP_GITHUB_CLIENT_ID;
+let githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET;
+let githubUserName = process.env.REACT_APP_GITHUB_USER_NAME;
 
 const ResumeState = (props) => {
   const initialState = {

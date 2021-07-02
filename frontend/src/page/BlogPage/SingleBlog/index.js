@@ -26,7 +26,7 @@ const SingleBlog = ({ match, history }) => {
                 alt="arrow"
               />{' '}
             </button>
-            <h1 className="text-7xl py-8 px-8">
+            <h1 className="text-7xl py-16 px-8">
               <span> </span>
               {activePost.title}
             </h1>

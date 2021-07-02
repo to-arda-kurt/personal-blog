@@ -14,7 +14,7 @@ const BlogPage = () => {
 
   return (
     <div>
-      <h1 className="text-7xl py-8">{pageConfig.homeBlogHeader}</h1>
+      <h1 className="text-7xl py-16">{pageConfig.homeBlogHeader}</h1>
       {blogPosts.length > 0 ? (
         blogPosts.map((post) => (
           <Link key={post._id} to={`/blog/${post.handle}`}>
