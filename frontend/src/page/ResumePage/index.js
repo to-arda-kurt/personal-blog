@@ -7,10 +7,11 @@ const ResumePage = () => {
   const resumeContext = useContext(ResumeContext);
   const pageConfigContext = useContext(PageConfigContext);
   const { pageConfig } = pageConfigContext;
-  const { getUser, loading, user } = resumeContext;
+  const { getUser, loading, user, getUserRepos } = resumeContext;
 
   useEffect(() => {
     getUser();
+    getUserRepos();
     //eslint-disable-next-line
   }, []);
   console.log();
@@ -18,6 +19,9 @@ const ResumePage = () => {
   return (
     <main>
       <h1 className="text-7xl py-16">{pageConfig.resumePageHeader}</h1>
+      <h2 className="text-6xl">{pageConfig.aboutPageName}</h2>
+      <h3 className="text-4xl">{pageConfig.aboutPageSubtitle}</h3>
+      <p className="text-2xl">Eager </p>
     </main>
   );
 };
