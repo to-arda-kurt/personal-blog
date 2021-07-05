@@ -10,6 +10,7 @@ import SingleBlog from './page/BlogPage/SingleBlog';
 import PageConfigState from './context/PageConfig/PageConfigState';
 import BlogState from './context/Blog/BlogState';
 import ResumeState from './context/Resume/ResumeState';
+import Footer from './layout/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                 <Route exact path="/about" component={AboutPage} />
                 <Route path="/" component={HomePage} />
               </Switch>
+              <Footer />
             </div>
           </Router>
         </ResumeState>
