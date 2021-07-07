@@ -1,6 +1,10 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import colors from 'colors';
+//Connect DB
+import connectDB from './db.js';
+
+connectDB();
 
 const app = express();
 dotenv.config();
